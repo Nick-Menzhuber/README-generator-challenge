@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'credits',
+        message: 'Please enter any credits that should be included, or enter "N/A":'
+    },
+    {
+        type: 'input',
         name: 'contributing',
         message: 'Please enter guidelines for project contributions:',
     },
@@ -44,7 +49,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select a license for your project:',
-        choices: ['MIT', 'Apache', 'GNU GPL v3', 'Perl']
+        choices: ['MIT', 'Apache', 'GNU GPL v3', 'Perl', 'None']
     },
     {
       type: 'input',
